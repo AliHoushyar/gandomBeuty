@@ -1,0 +1,215 @@
+.slider{
+    width: 100%;
+    height: 75vh;
+    background-color: #657960;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.sliderImg{
+    width: 60%;
+    height: 90%;
+    margin-top: 20px;
+}
+
+.sliderText{
+    display: flex;
+    flex-direction: column;
+}
+
+.sliderTitle{
+    font-size: 32px;
+    color: white;
+}
+
+.sliderDiscription{
+    font-size: 16px;
+    color: rgb(213, 213, 213);
+}
+
+.sliderBtns{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    bottom: 40px;
+    left: 10%;
+}
+
+.sliderBtns button{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    color: #657960;
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.categories{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 100px;
+}
+
+.singleCat{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    align-items: center;
+}
+
+.singleCat img{
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid #657960;
+    padding: 3px;
+}
+
+.singleCat span{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.info{
+    margin-top: 20px;
+    width: 100%;
+    position: relative;
+}
+
+.images{
+    position: relative;
+    z-index: -1;
+}
+
+.Fimg{
+    background-image: url(../img/botaxe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 729px;
+    height: 526px;
+    border-radius: 40px;
+    position: absolute;
+    top: 60px;
+    right: 15%;
+}
+
+.Simg{
+    background-image: url(../img/img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 514px;
+    height: 596px;
+    border-radius: 40px;
+    position: absolute;
+    top: 400px;
+    left: 10%;
+}
+
+.mainInfo{
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 404px;
+    height: 566px;
+    border-radius: 40px;
+    position: absolute;
+    top: 500px;
+    right: 20%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.infoTitle{
+    font-size: 42px;
+    color: #657960;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.infoDes{
+    text-align: justify;
+    text-justify: inter-word;
+    margin-top: 30px;
+}
+
+.moreInfo{
+    width: 160px;
+    height: 100px;
+    border: 3px solid #657960;
+    font-size: 16px;
+    color: #657960;
+    border-radius: 30px;
+    margin-top: 70px;
+    margin-right: 50%;
+}
+
+.feuturs{
+    width: 100%;
+    height: 100vh;
+    margin-top: 160vh;
+}
+
+.footer{
+    background-color: #657960;
+    width: 100%;
+    height: 350px;
+    position: relative;
+    bottom: 0;
+}
+
+.footerTurnShadow{
+    position: absolute;
+    top: -60px;
+    width: 70%;
+    height: 120px;
+    right: 15.7%;
+    background-color: rgb(183, 183, 183);
+    z-index: -1;
+}
+
+.footerTurn{
+    position: absolute;
+    top: -50px;
+    width: 70%;
+    height: 120px;
+    right: 15%;
+    background-color: #c8aa58;
+    padding: 20px;
+}
+
+.footerTurnText{
+    display: flex;
+    flex-direction: column;
+}
+
+.footerTurnTextTitle{
+    font-size: 28px;
+    color: #f3f2e0;
+}
+
+.footerTurnTextDes{
+    font-size: 16px;
+    color: #eceada;
+    margin-top: 10px;
+}
+
+.footerTurnByn{
+    position: absolute;
+    left: 20px;
+    bottom: 30px;
+    width: 200px;
+    height: 50px;
+    background-color: #657960;
+    border-radius: 25px;
+    color: #c8aa58;
+    font-size: 18px;
+    font-weight: bold;
+}

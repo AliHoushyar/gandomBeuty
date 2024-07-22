@@ -1,0 +1,17 @@
+@import "compas";
+
+@font-face {
+    font-family: "shabnam";
+    src: url("../fonts/Shabnam-FD.woff2") format("woff2");
+}
+
+*{
+    box-sizing: border-box;
+    font-family: "shabnam",sans-serif;
+}
+
+body{
+  overflow-x: hidden;
+  scrollbar-width: 0;
+  background-color: #f1f1f1;
+}
