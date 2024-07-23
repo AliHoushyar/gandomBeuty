@@ -373,6 +373,8 @@
   }
   .slider{
     padding: 20px;
+    background-image: url(../img/patern.png);
+    background-size: cover;
   }
   .sliderBtns{
     right: 7%;
